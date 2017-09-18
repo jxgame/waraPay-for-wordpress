@@ -1,0 +1,12 @@
+.waraPay_widget_wrap{position:relative;margin:0 auto;padding:0;width:auto;border:none;text-align:center;font-family:Microsoft YaHei;}
+.waraPay_widget_form,.waraPay_widget_show{position:absolute;top:0;left:0;margin:0 auto;padding:0;border:none;background:#F90;text-align:center;}
+.waraPay_widget_form{opacity:.85;}
+.waraPay_widget_show{display:block;background:0 0;}
+.waraPay_widget_hide{display:none;background:0 0;}
+.waraPay_widget_form_wrap{margin:5px;}
+.waraPay_widget_form_wrap p{display:block;margin:0;padding:0;}
+.waraPay_widget_form_wrap p label{display:block;margin:2px auto;line-height:2em;}
+.waraPay_widget_form_wrap p input{display:block;margin:2px auto;line-height:2em;opacity:1;}
+.waraPay_widget_form_wrap p input.waraPay_widget_btn{display:inline;}
+.waraPay_widget_size{margin:0;margin-top:13px;color:#B02B5C;font-weight:700;font-size:24px;}
+.waraPay_widget_char{margin:0;margin-top:8px;color:#333;font-size:18px;}

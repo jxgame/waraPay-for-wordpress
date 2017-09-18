@@ -1,0 +1,1487 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: waraPay Payment && Mall && alipay && wechat && paypal.\n"
+"POT-Creation-Date: 2017-09-16 21:42+0800\n"
+"PO-Revision-Date: 2017-09-16 21:43+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/api_warapay/inc.warapayto.php:30 includes/tpl.payto.php:4
+msgid "页面跳转中..."
+msgstr ""
+
+#: includes/cls.dbparser.php:25
+msgid "【waraPay】:商品参数不合法,未知的商品ID<br/>"
+msgstr ""
+
+#: includes/cls.dbparser.php:36
+msgid "【waraPay】:该商品不存在<br/>"
+msgstr ""
+
+#: includes/cls.dbparser.php:73
+#, php-format
+msgid "【waraPay】:\"%s\",请<a href=\""
+msgstr ""
+
+#: includes/cls.dbparser.php:79
+#, php-format
+msgid "【waraPay】:商品\"%s\"还未上架!"
+msgstr ""
+
+#: includes/cls.dbparser.php:84
+#, php-format
+msgid "【waraPay】:商品\"%s\"已下架!"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:18 includes/cls.listTable_orders.php:19
+msgid "订单"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:47
+msgid "查看详情"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:50 includes/cls.listTable_products.php:45
+#: includes/cls.listTable_templates.php:45
+#: includes/cls.listTable_templates.php:126
+msgid "删除"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:86 includes/cls.listTable_products.php:74
+#: includes/cls.mail.php:92 includes/cls.mail.php:120
+#: includes/tpl.cart.php:349 includes/tpl.edit_product.php:89 readme.php:89
+msgid "商品名称"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:87 includes/cls.listTable_products.php:75
+msgid "单价"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:88 includes/cls.mail.php:74
+#: includes/cls.mail.php:94 includes/tpl.edit_order.php:80 readme.php:74
+msgid "购买数量"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:89
+msgid "内部订单号"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:90 includes/cls.mail.php:78
+#: includes/tpl.edit_order.php:93
+msgid "下单时间"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:91
+msgid "交易状态"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:92 includes/tpl.edit_order.php:105
+msgid "发货状态"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:121
+msgid "全部"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:124 includes/cls.listTable_orders.php:237
+#: includes/cls.listTable_orders.php:259
+msgid "未付款"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:127 includes/cls.listTable_orders.php:241
+#: includes/cls.listTable_orders.php:265
+msgid "付款成功"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:245 includes/tpl.edit_order.php:107
+msgid "未发货"
+msgstr ""
+
+#: includes/cls.listTable_orders.php:248 includes/tpl.edit_order.php:107
+msgid "已发货"
+msgstr ""
+
+#: includes/cls.listTable_products.php:16
+#: includes/cls.listTable_products.php:17
+msgid "商品"
+msgstr ""
+
+#: includes/cls.listTable_products.php:42
+#: includes/cls.listTable_templates.php:39 includes/fnc.core.php:140
+msgid "编辑"
+msgstr ""
+
+#: includes/cls.listTable_products.php:76 includes/cls.mail.php:123
+#: includes/tpl.edit_product.php:111
+msgid "剩余数量"
+msgstr ""
+
+#: includes/cls.listTable_products.php:77
+msgid "类型"
+msgstr ""
+
+#: includes/cls.listTable_products.php:78
+msgid "短代码"
+msgstr ""
+
+#: includes/cls.listTable_products.php:79
+msgid "简要描述"
+msgstr ""
+
+#: includes/cls.listTable_templates.php:14
+#: includes/cls.listTable_templates.php:15
+msgid "模版"
+msgstr ""
+
+#: includes/cls.listTable_templates.php:102 includes/tpl.edit_template.php:75
+msgid "模版名称"
+msgstr ""
+
+#: includes/cls.listTable_templates.php:103
+msgid "编号"
+msgstr ""
+
+#: includes/cls.listTable_templates.php:104
+msgid "描述"
+msgstr ""
+
+#: includes/cls.mail.php:21
+msgid "亲爱的"
+msgstr ""
+
+#: includes/cls.mail.php:22
+msgid "您好！"
+msgstr ""
+
+#: includes/cls.mail.php:23
+msgid "感谢您的购买！"
+msgstr ""
+
+#: includes/cls.mail.php:24
+msgid "请仔细阅读以下内容:"
+msgstr ""
+
+#: includes/cls.mail.php:25
+msgid "订单详情如下:"
+msgstr ""
+
+#: includes/cls.mail.php:26
+msgid "商品信息如下:"
+msgstr ""
+
+#: includes/cls.mail.php:27
+msgid "此为系统邮件，请勿回复"
+msgstr ""
+
+#: includes/cls.mail.php:28
+msgid "请保管好您的邮箱，避免信息被他人窃取"
+msgstr ""
+
+#: includes/cls.mail.php:29
+msgid "如有任何疑问，可与"
+msgstr ""
+
+#: includes/cls.mail.php:30
+msgid "客服"
+msgstr ""
+
+#: includes/cls.mail.php:31
+msgid "联系进行咨询。"
+msgstr ""
+
+#: includes/cls.mail.php:32 includes/cls.mail.php:57
+msgid "会员"
+msgstr ""
+
+#: includes/cls.mail.php:33
+msgid "友情提醒:"
+msgstr ""
+
+#: includes/cls.mail.php:55 includes/cls.mail.php:116
+#: includes/cls.mail.php:129 includes/cls.mail.php:136
+#: includes/cls.mail.php:143
+msgid "管理员"
+msgstr ""
+
+#: includes/cls.mail.php:63
+msgid "[管理员]新交易已创建:等待买家付款"
+msgstr ""
+
+#: includes/cls.mail.php:64
+msgid "新交易已创建, 等待买家付款"
+msgstr ""
+
+#: includes/cls.mail.php:65
+msgid "您有一个新的订单!"
+msgstr ""
+
+#: includes/cls.mail.php:67 includes/cls.mail.php:70 includes/cls.mail.php:71
+#: includes/cls.mail.php:72
+msgid "交易状态已改变为:等待付款"
+msgstr ""
+
+#: includes/cls.mail.php:68
+msgid "您的订单已被记录, 请尽快完成支付。"
+msgstr ""
+
+#: includes/cls.mail.php:73 includes/cls.mail.php:93 includes/cls.mail.php:122
+msgid "商品单价"
+msgstr ""
+
+#: includes/cls.mail.php:75 includes/cls.mail.php:95
+msgid "商品运费"
+msgstr ""
+
+#: includes/cls.mail.php:76 includes/cls.mail.php:96
+msgid "支付总计"
+msgstr ""
+
+#: includes/cls.mail.php:77 includes/cls.mail.php:97
+msgid "支付平台"
+msgstr ""
+
+#: includes/cls.mail.php:83
+msgid "[管理员]交易状态已改变为:买家付款成功"
+msgstr ""
+
+#: includes/cls.mail.php:84
+msgid "买家已经付款成功"
+msgstr ""
+
+#: includes/cls.mail.php:85
+msgid "有一笔交易已经支付成功!"
+msgstr ""
+
+#: includes/cls.mail.php:87
+msgid "交易状态已改变为:付款成功"
+msgstr ""
+
+#: includes/cls.mail.php:88
+msgid "您已经支付成功!<br />(为提供交易依据,该邮件已同时发送给买家和卖家)"
+msgstr ""
+
+#: includes/cls.mail.php:90
+msgid "商户订单"
+msgstr ""
+
+#: includes/cls.mail.php:91
+msgid "平台订单"
+msgstr ""
+
+#: includes/cls.mail.php:115
+msgid "[管理员]商品余量不足, 请及时补充!"
+msgstr ""
+
+#: includes/cls.mail.php:117
+msgid "您有一个新订单！"
+msgstr ""
+
+#: includes/cls.mail.php:118
+msgid "仓库余量不足。"
+msgstr ""
+
+#: includes/cls.mail.php:119
+msgid "商户编号"
+msgstr ""
+
+#: includes/cls.mail.php:121 includes/tpl.edit_product.php:108 readme.php:97
+msgid "商品描述"
+msgstr ""
+
+#: includes/cls.mail.php:128
+msgid "[管理员]重要提醒:订单缺失, 等待发货"
+msgstr ""
+
+#: includes/cls.mail.php:130 includes/cls.mail.php:137
+#: includes/cls.mail.php:144
+msgid "您有一笔交易,客户已经支付成功！但交易还未结束."
+msgstr ""
+
+#: includes/cls.mail.php:131
+msgid ""
+"买家已经完成付款, 但订单已经缺失, 当前处于\"等待发货\"状态。<br />请积极与客"
+"户取得联系!人工完成发货(客户的信息可以在支付平台上查询到)"
+msgstr ""
+
+#: includes/cls.mail.php:135
+msgid "[管理员]重要提醒:商品缺失, 等待发货"
+msgstr ""
+
+#: includes/cls.mail.php:138
+msgid ""
+"买家已经完成付款, 但订购的商品已经缺失, 当前处于\"等待发货\"状态。<br />请积"
+"极与客户取得联系!人工完成发货(客户的信息可以在支付平台上查询到)"
+msgstr ""
+
+#: includes/cls.mail.php:142
+msgid "[管理员]重要提醒:货源为空, 等待发货"
+msgstr ""
+
+#: includes/cls.mail.php:145
+msgid ""
+"买家已经完成付款, 但订购的商品自动货源已经为空, 当前处于\"等待发货\"状态。"
+"<br />请积极与客户取得联系!人工完成发货(客户的信息可以在支付平台上查询到)"
+msgstr ""
+
+#: includes/cls.mail.php:249 includes/tpl.cart.php:303
+msgid "支付宝"
+msgstr ""
+
+#: includes/cls.mail.php:252 includes/tpl.cart.php:304
+msgid "微信"
+msgstr ""
+
+#: includes/cls.mail.php:255
+msgid "PayPal"
+msgstr ""
+
+#: includes/cls.widgets.php:7
+msgid "支付宝广告"
+msgstr ""
+
+#: includes/cls.widgets.php:7
+msgid "使用该小工具可以添加一个自助广告位"
+msgstr ""
+
+#: includes/cls.widgets.php:44
+msgid "proid is not found!"
+msgstr ""
+
+#: includes/cls.widgets.php:131
+msgid "Auto Ads"
+msgstr ""
+
+#: includes/cls.widgets.php:142
+msgid "Title"
+msgstr ""
+
+#: includes/cls.widgets.php:143
+msgid "ImageSrc"
+msgstr ""
+
+#: includes/cls.widgets.php:144 includes/cls.widgets.php:145
+msgid "Image"
+msgstr ""
+
+#: includes/cls.widgets.php:144
+msgid "Width"
+msgstr ""
+
+#: includes/cls.widgets.php:145
+msgid "Height"
+msgstr ""
+
+#: includes/cls.widgets.php:146
+msgid "productid"
+msgstr ""
+
+#: includes/cls.widgets.php:147
+msgid "pricePerDay"
+msgstr ""
+
+#: includes/cls.widgets.php:148
+msgid "pricePerWeek"
+msgstr ""
+
+#: includes/cls.widgets.php:149
+msgid "pricePerMonth"
+msgstr ""
+
+#: includes/cls.widgets.php:150
+msgid "pricePerQuarter"
+msgstr ""
+
+#: includes/cls.widgets.php:151
+msgid "pricePerYear"
+msgstr ""
+
+#: includes/cls.widgets.php:163
+msgid "show the characters"
+msgstr ""
+
+#: includes/cls.widgets.php:168
+msgid "show"
+msgstr ""
+
+#: includes/cls.widgets.php:169
+msgid "hide"
+msgstr ""
+
+#: includes/cls.widgets.php:206 includes/cls.widgets.php:231
+#: includes/tpl.cart.php:119
+msgid "Day"
+msgstr ""
+
+#: includes/cls.widgets.php:209 includes/cls.widgets.php:233
+#: includes/tpl.cart.php:123
+msgid "Week"
+msgstr ""
+
+#: includes/cls.widgets.php:212 includes/cls.widgets.php:235
+#: includes/tpl.cart.php:129
+msgid "Month"
+msgstr ""
+
+#: includes/cls.widgets.php:215 includes/tpl.cart.php:135
+msgid "Quarter"
+msgstr ""
+
+#: includes/cls.widgets.php:218 includes/cls.widgets.php:239
+#: includes/tpl.cart.php:141
+msgid "Year"
+msgstr ""
+
+#: includes/cls.widgets.php:237
+msgid "Quarte"
+msgstr ""
+
+#: includes/fnc.core.php:110
+msgid "Settings"
+msgstr ""
+
+#: includes/fnc.core.php:135
+msgctxt "taxonomy singular name"
+msgid "productcats"
+msgstr ""
+
+#: includes/fnc.core.php:136 includes/tpl.tab.orders.php:22
+#: includes/tpl.tab.products.php:36 includes/tpl.tab.templates.php:31
+msgid "搜索"
+msgstr ""
+
+#: includes/fnc.core.php:137
+msgid "所有"
+msgstr ""
+
+#: includes/fnc.core.php:138 includes/fnc.core.php:139
+msgid "父级"
+msgstr ""
+
+#: includes/fnc.core.php:141 includes/tpl.edit_order.php:178
+#: includes/tpl.edit_product.php:243 includes/tpl.edit_template.php:120
+msgid "更新"
+msgstr ""
+
+#: includes/fnc.core.php:142
+msgid "添加"
+msgstr ""
+
+#: includes/fnc.core.php:143
+msgid "新建"
+msgstr ""
+
+#: includes/inc.dbloader.php:154
+msgid "该商品已不存在"
+msgstr ""
+
+#: includes/inc.dbloader.php:155
+msgid "未知"
+msgstr ""
+
+#: includes/tpl.cart.php:36
+msgid "收货人姓名"
+msgstr ""
+
+#: includes/tpl.cart.php:37
+msgid "详细地址"
+msgstr ""
+
+#: includes/tpl.cart.php:38
+msgid "邮政编码"
+msgstr ""
+
+#: includes/tpl.cart.php:39
+msgid "联系手机"
+msgstr ""
+
+#: includes/tpl.cart.php:40 includes/tpl.cart.php:47 includes/tpl.cart.php:59
+#: includes/tpl.cart.php:67
+msgid "电子邮箱"
+msgstr ""
+
+#: includes/tpl.cart.php:41 includes/tpl.cart.php:48 includes/tpl.cart.php:60
+#: includes/tpl.cart.php:68
+msgid "给卖家留言"
+msgstr ""
+
+#: includes/tpl.cart.php:57 readme.php:80
+msgid "图片地址"
+msgstr ""
+
+#: includes/tpl.cart.php:58
+msgid "跳转地址"
+msgstr ""
+
+#: includes/tpl.cart.php:64 readme.php:82
+msgid "链接名称"
+msgstr ""
+
+#: includes/tpl.cart.php:65 readme.php:83
+msgid "链接地址"
+msgstr ""
+
+#: includes/tpl.cart.php:66 readme.php:84
+msgid "链接描述"
+msgstr ""
+
+#: includes/tpl.cart.php:321
+msgid "商品购买详情"
+msgstr ""
+
+#: includes/tpl.cart.php:332
+msgid "waraPay快捷支付!"
+msgstr ""
+
+#: includes/tpl.cart.php:333
+msgid "欢迎您!"
+msgstr ""
+
+#: includes/tpl.cart.php:333
+msgid "订单中心"
+msgstr ""
+
+#: includes/tpl.cart.php:340
+msgid "购物车"
+msgstr ""
+
+#: includes/tpl.cart.php:343
+msgid "第一步：确认商品信息"
+msgstr ""
+
+#: includes/tpl.cart.php:350
+msgid "单价(元)"
+msgstr ""
+
+#: includes/tpl.cart.php:351
+msgid "X"
+msgstr ""
+
+#: includes/tpl.cart.php:352
+msgid "数量"
+msgstr ""
+
+#: includes/tpl.cart.php:353
+msgid "="
+msgstr ""
+
+#: includes/tpl.cart.php:354
+msgid "小计(元)"
+msgstr ""
+
+#: includes/tpl.cart.php:359
+#, php-format
+msgid "应付总额(含运费：<em id=\"cartLogFee\">%s</em>元)"
+msgstr ""
+
+#: includes/tpl.cart.php:360
+msgid "元"
+msgstr ""
+
+#: includes/tpl.cart.php:397
+msgid "第二步：填写收货信息"
+msgstr ""
+
+#: includes/tpl.cart.php:436
+msgid "请填写正确的"
+msgstr ""
+
+#: includes/tpl.cart.php:448
+msgid "第三步：选择付款方式"
+msgstr ""
+
+#: includes/tpl.cart.php:473
+msgid "第四步：去收银台结账"
+msgstr ""
+
+#: includes/tpl.cart.php:475
+msgid "确定订单并付款"
+msgstr ""
+
+#: includes/tpl.cart.php:500
+msgid "请填写正确的联系手机号码"
+msgstr ""
+
+#: includes/tpl.cart.php:501
+msgid "请填写收货详细地址"
+msgstr ""
+
+#: includes/tpl.cart.php:502
+msgid "请填写正确的邮政编码"
+msgstr ""
+
+#: includes/tpl.cart.php:503
+msgid "请填写收货人姓名"
+msgstr ""
+
+#: includes/tpl.cart.php:504
+msgid "请填写正确的电子邮箱地址"
+msgstr ""
+
+#: includes/tpl.edit_order.php:42 includes/tpl.edit_product.php:49
+#: includes/tpl.edit_template.php:44
+msgid "删除后数据不可恢复, 你确定要这样做吗?"
+msgstr ""
+
+#: includes/tpl.edit_order.php:45 includes/tpl.edit_product.php:50
+#: includes/tpl.edit_template.php:47
+msgid "确定"
+msgstr ""
+
+#: includes/tpl.edit_order.php:47 includes/tpl.edit_product.php:51
+#: includes/tpl.edit_template.php:48
+msgid "取消"
+msgstr ""
+
+#: includes/tpl.edit_order.php:79 includes/tpl.edit_order.php:136
+#: includes/tpl.edit_product.php:88 includes/tpl.edit_product.php:200
+msgid "商品编号"
+msgstr ""
+
+#: includes/tpl.edit_order.php:81
+msgid "商户订单号"
+msgstr ""
+
+#: includes/tpl.edit_order.php:82
+msgid "平台订单号"
+msgstr ""
+
+#: includes/tpl.edit_order.php:83
+msgid "支付网关"
+msgstr ""
+
+#: includes/tpl.edit_order.php:84
+msgid "支付账号"
+msgstr ""
+
+#: includes/tpl.edit_order.php:85
+msgid "用户名"
+msgstr ""
+
+#: includes/tpl.edit_order.php:86 readme.php:78
+msgid "收件人姓名"
+msgstr ""
+
+#: includes/tpl.edit_order.php:87
+msgid "收件人邮箱"
+msgstr ""
+
+#: includes/tpl.edit_order.php:88
+msgid "收件人电话"
+msgstr ""
+
+#: includes/tpl.edit_order.php:89 readme.php:79
+msgid "收件人邮编"
+msgstr ""
+
+#: includes/tpl.edit_order.php:90
+msgid "收件人地址"
+msgstr ""
+
+#: includes/tpl.edit_order.php:91
+msgid "备注信息"
+msgstr ""
+
+#: includes/tpl.edit_order.php:92
+msgid "客户留言"
+msgstr ""
+
+#: includes/tpl.edit_order.php:94
+msgid "付款时间"
+msgstr ""
+
+#: includes/tpl.edit_order.php:95
+msgid "展示页面"
+msgstr ""
+
+#: includes/tpl.edit_order.php:100
+msgid "待付款"
+msgstr ""
+
+#: includes/tpl.edit_order.php:100
+msgid "已付款"
+msgstr ""
+
+#: includes/tpl.edit_order.php:112
+msgid "所发货源"
+msgstr ""
+
+#: includes/tpl.edit_order.php:158
+msgid "浏览订单"
+msgstr ""
+
+#: includes/tpl.edit_product.php:32
+msgid "未命名商品"
+msgstr ""
+
+#: includes/tpl.edit_product.php:92
+msgid "商品类型"
+msgstr ""
+
+#: includes/tpl.edit_product.php:95
+msgid "普通实物"
+msgstr ""
+
+#: includes/tpl.edit_product.php:96
+msgid "普通虚拟"
+msgstr ""
+
+#: includes/tpl.edit_product.php:97
+msgid "广告位"
+msgstr ""
+
+#: includes/tpl.edit_product.php:98
+msgid "友情链接"
+msgstr ""
+
+#: includes/tpl.edit_product.php:102 readme.php:90
+msgid "商品价格"
+msgstr ""
+
+#: includes/tpl.edit_product.php:103
+msgid "每日单价"
+msgstr ""
+
+#: includes/tpl.edit_product.php:104
+msgid "每周单价"
+msgstr ""
+
+#: includes/tpl.edit_product.php:105
+msgid "每月单价"
+msgstr ""
+
+#: includes/tpl.edit_product.php:106
+msgid "每季单价"
+msgstr ""
+
+#: includes/tpl.edit_product.php:107
+msgid "每年单价"
+msgstr ""
+
+#: includes/tpl.edit_product.php:109
+msgid "商品净重(kg)"
+msgstr ""
+
+#: includes/tpl.edit_product.php:110
+msgid "已售数量"
+msgstr ""
+
+#: includes/tpl.edit_product.php:112
+msgid "商品图片地址"
+msgstr ""
+
+#: includes/tpl.edit_product.php:113 readme.php:100
+msgid "下载链接"
+msgstr ""
+
+#: includes/tpl.edit_product.php:114 readme.php:101
+msgid "解压密码"
+msgstr ""
+
+#: includes/tpl.edit_product.php:115
+msgid "商品标签(,)"
+msgstr ""
+
+#: includes/tpl.edit_product.php:118 readme.php:105
+msgid "买家承担运费"
+msgstr ""
+
+#: includes/tpl.edit_product.php:120
+msgid "否"
+msgstr ""
+
+#: includes/tpl.edit_product.php:120
+msgid "是"
+msgstr ""
+
+#: includes/tpl.edit_product.php:123
+msgid "运费价格"
+msgstr ""
+
+#: includes/tpl.edit_product.php:124
+msgid "商品所在地"
+msgstr ""
+
+#: includes/tpl.edit_product.php:125
+msgid "商品添加日期"
+msgstr ""
+
+#: includes/tpl.edit_product.php:126
+msgid "商品上架时间"
+msgstr ""
+
+#: includes/tpl.edit_product.php:127
+msgid "商品下架时间"
+msgstr ""
+
+#: includes/tpl.edit_product.php:130
+msgid "开启促销"
+msgstr ""
+
+#: includes/tpl.edit_product.php:132 includes/tpl.edit_product.php:139
+#: includes/tpl.edit_product.php:166 includes/tpl.edit_product.php:179
+msgid "关闭"
+msgstr ""
+
+#: includes/tpl.edit_product.php:132 includes/tpl.edit_product.php:139
+#: includes/tpl.edit_product.php:166 includes/tpl.edit_product.php:179
+msgid "开启"
+msgstr ""
+
+#: includes/tpl.edit_product.php:137
+msgid "开启每日促销"
+msgstr ""
+
+#: includes/tpl.edit_product.php:144 readme.php:111
+msgid "促销开始日期"
+msgstr ""
+
+#: includes/tpl.edit_product.php:149
+msgid "促销开始时间"
+msgstr ""
+
+#: includes/tpl.edit_product.php:154 readme.php:112
+msgid "促销结束日期"
+msgstr ""
+
+#: includes/tpl.edit_product.php:159
+msgid "促销结束时间"
+msgstr ""
+
+#: includes/tpl.edit_product.php:164
+msgid "促销折扣"
+msgstr ""
+
+#: includes/tpl.edit_product.php:171
+msgid "折扣比率"
+msgstr ""
+
+#: includes/tpl.edit_product.php:174
+msgid "模版选择"
+msgstr ""
+
+#: includes/tpl.edit_product.php:177
+msgid "启用自动货源列表"
+msgstr ""
+
+#: includes/tpl.edit_product.php:182
+msgid "货源分隔符"
+msgstr ""
+
+#: includes/tpl.edit_product.php:186
+msgid ""
+"虚拟物品货源&nbsp;&nbsp;&nbsp;&nbsp;(如果货源文本是每行一个条目,请将\\'货源分"
+"隔符\\'留空。一旦设置了分隔符，下面的货源文件就应该用该分隔符分隔)"
+msgstr ""
+
+#: includes/tpl.edit_product.php:190
+msgid "商品快捷链接"
+msgstr ""
+
+#: includes/tpl.edit_product.php:190
+msgid "双击打开"
+msgstr ""
+
+#: includes/tpl.edit_product.php:219
+msgid "编辑商品"
+msgstr ""
+
+#: includes/tpl.edit_template.php:28
+msgid "未命名模版"
+msgstr ""
+
+#: includes/tpl.edit_template.php:72
+msgid "模版编号"
+msgstr ""
+
+#: includes/tpl.edit_template.php:76
+msgid "模版描述"
+msgstr ""
+
+#: includes/tpl.edit_template.php:78
+msgid "模版CSS代码:(请自行在代码中添加&lt;style&gt;标签,可以使用链接关系)"
+msgstr ""
+
+#: includes/tpl.edit_template.php:83
+msgid "模版HTML代码:(请直接在&lt;div&gt;标签下写代码)"
+msgstr ""
+
+#: includes/tpl.edit_template.php:89
+msgid ""
+"模版javascript代码:(请自行在代码中添加&lt;script&gt;标签,可以使用脚本路径)"
+msgstr ""
+
+#: includes/tpl.edit_template.php:102
+msgid "编辑模版"
+msgstr ""
+
+#: includes/tpl.payto.php:20
+msgid "正在跳转中, 请稍候......"
+msgstr ""
+
+#: includes/tpl.payto.php:21
+msgid ""
+"【提示】您的浏览器未开启脚本支持,此操作无法继续进行,请启用javascript支持"
+msgstr ""
+
+#: includes/tpl.show.php:21
+msgid "该商品不存在"
+msgstr ""
+
+#: includes/tpl.tab.general.php:10
+msgid "waraPay帐号设置"
+msgstr ""
+
+#: includes/tpl.tab.general.php:15
+msgid "收款货币"
+msgstr ""
+
+#: includes/tpl.tab.general.php:20
+msgid "人民币"
+msgstr ""
+
+#: includes/tpl.tab.general.php:24
+msgid "韩元"
+msgstr ""
+
+#: includes/tpl.tab.general.php:28
+msgid "越南盾"
+msgstr ""
+
+#: includes/tpl.tab.general.php:32
+msgid "日元"
+msgstr ""
+
+#: includes/tpl.tab.general.php:37
+msgid "waraPay接口appid"
+msgstr ""
+
+#: includes/tpl.tab.general.php:38
+msgid "waraPay公钥"
+msgstr ""
+
+#: includes/tpl.tab.general.php:39
+msgid "app私钥"
+msgstr ""
+
+#: includes/tpl.tab.general.php:42
+msgid "注册waraPay企业帐号"
+msgstr ""
+
+#: includes/tpl.tab.general.php:46
+msgid "邮件通知设置"
+msgstr ""
+
+#: includes/tpl.tab.general.php:48
+msgid "管理员邮箱地址"
+msgstr ""
+
+#: includes/tpl.tab.general.php:50
+msgid "买家订单通知"
+msgstr ""
+
+#: includes/tpl.tab.general.php:51
+msgid "买家付款通知(建议开启)"
+msgstr ""
+
+#: includes/tpl.tab.general.php:52
+msgid "卖家订单通知"
+msgstr ""
+
+#: includes/tpl.tab.general.php:53
+msgid "卖家付款通知(建议开启)"
+msgstr ""
+
+#: includes/tpl.tab.general.php:55
+msgid "管理员缺货通知(建议开启)"
+msgstr ""
+
+#: includes/tpl.tab.general.php:56
+msgid "其他设置"
+msgstr ""
+
+#: includes/tpl.tab.general.php:57
+msgid "客服超链接(显示在邮件中)"
+msgstr ""
+
+#: includes/tpl.tab.general.php:58
+msgid "购买商品必须登录"
+msgstr ""
+
+#: includes/tpl.tab.general.php:59
+msgid "允许登录用户看见自己的订单"
+msgstr ""
+
+#: includes/tpl.tab.general.php:64
+msgid "【注】使用问题请联系 jxgame@163.com"
+msgstr ""
+
+#: includes/tpl.tab.general.php:86
+msgid "保存成功！"
+msgstr ""
+
+#: includes/tpl.tab.general.php:88
+msgid "保存失败！"
+msgstr ""
+
+#: includes/tpl.tab.general.php:121 includes/tpl.tab.nav.php:14
+msgid "常规设置"
+msgstr ""
+
+#: includes/tpl.tab.general.php:132
+msgid "保存设置"
+msgstr ""
+
+#: includes/tpl.tab.nav.php:8 includes/tpl.tab.products.php:17
+msgid "商品仓库"
+msgstr ""
+
+#: includes/tpl.tab.nav.php:10 includes/tpl.tab.orders.php:14
+msgid "订单管理"
+msgstr ""
+
+#: includes/tpl.tab.nav.php:13 includes/tpl.tab.templates.php:13
+msgid "模版管理"
+msgstr ""
+
+#: includes/tpl.tab.nav.php:19
+msgid "我的订单"
+msgstr ""
+
+#: includes/tpl.tab.nav.php:46
+msgid "帮助文档"
+msgstr ""
+
+#: includes/tpl.tab.nav.php:52
+msgid "因为信任,所以简单"
+msgstr ""
+
+#: includes/tpl.tab.products.php:21
+msgid "添加商品"
+msgstr ""
+
+#: includes/tpl.tab.templates.php:16
+msgid "添加模版"
+msgstr ""
+
+#: includes/tpl.tab.templates.php:17
+msgid "下载模版"
+msgstr ""
+
+#: includes/tpl.tip.php:26
+msgid "支付提示:"
+msgstr ""
+
+#: includes/tpl.tip.php:54
+msgid "支付成功"
+msgstr ""
+
+#: includes/tpl.tip.php:56
+#, php-format
+msgid ""
+"感谢您的购买!<br />请记下您的订单号: %s<br />您随时可以关闭此页面!<br />"
+msgstr ""
+
+#: includes/tpl.tip.php:61
+msgid "订单未支付！"
+msgstr ""
+
+#: includes/tpl.tip.php:63
+#, php-format
+msgid ""
+"抱歉!此订单未支付。<br />请记下您的订单号: %s<br />您可以返回后刷新重新支付!"
+"<br />"
+msgstr ""
+
+#: includes/tpl.tip.php:68
+msgid "签名不合法"
+msgstr ""
+
+#: includes/tpl.tip.php:70
+msgid ""
+"签名无效！<br />您可能来自未知渠道或者修改过该页的URL。<br />如感到困惑,请联"
+"系管理员!<br />"
+msgstr ""
+
+#: includes/tpl.tip.php:75
+msgid "商品剩余数量不足"
+msgstr ""
+
+#: includes/tpl.tip.php:77
+msgid ""
+"商品剩余数量不足!<br />交易无法继续进行!您的资金尚未扣除!请提醒管理员添加商"
+"品!<br />如感到困惑,请联系管理员!<br />"
+msgstr ""
+
+#: includes/tpl.tip.php:82
+msgid "校验码为空"
+msgstr ""
+
+#: includes/tpl.tip.php:84
+msgid ""
+"校验码为空!<br />交易无法继续进行!您的资金尚未扣除!请提醒管理员处理!<br />如"
+"感到困惑,请联系管理员!<br />"
+msgstr ""
+
+#: includes/tpl.tip.php:89
+msgid "校验码已过期"
+msgstr ""
+
+#: includes/tpl.tip.php:91
+msgid ""
+"校验码已过期!<br />交易无法继续进行!您的资金尚未扣除!请提醒管理员更新缓存!"
+"<br />如感到困惑,请联系管理员!<br />"
+msgstr ""
+
+#: includes/tpl.tip.php:96
+msgid "权限验证失败"
+msgstr ""
+
+#: includes/tpl.tip.php:98
+msgid ""
+"权限验证失败!<br />您没有访问该页面的权限!<br />如感到困惑,请联系管理员!<br /"
+">"
+msgstr ""
+
+#: includes/tpl.tip.php:103
+msgid "连接服务器超时"
+msgstr ""
+
+#: includes/tpl.tip.php:105
+msgid ""
+"连接服务器超时!<br />您暂时无法完成支付!<br />这可能是网站服务器的问题!请联系"
+"管理员!<br />"
+msgstr ""
+
+#: includes/tpl.tip.php:110
+msgid "不支持该支付方式"
+msgstr ""
+
+#: includes/tpl.tip.php:112
+msgid ""
+"不支持该支付方式!<br />您暂时无法完成支付!<br />暂时不支持此支付方式,请选择"
+"<a href='javascript:history.go(-1)'>其他支付方式</a><br />"
+msgstr ""
+
+#: includes/tpl.tip.php:117
+msgid "未知的结果"
+msgstr ""
+
+#: includes/tpl.tip.php:119
+#, php-format
+msgid ""
+"未知的结果:%s。<br />这可能是程序开发中产生的错误,请联系管理员!您的资金尚未扣"
+"除!<br />您随时可以关闭此页面!<br />"
+msgstr ""
+
+#: readme.php:8
+msgid "获得一个waraPay企业帐户"
+msgstr ""
+
+#: readme.php:9
+msgid ""
+"<p>waraPay企业帐户可以帮助您在WordPress中实现商城、支付功能。<p>只需要注册"
+"waraPay您可可拥有支付宝、微信、PayPal等全球知名在线支付功能。</p><p>waraPay的"
+"商城中您可以出售实物商品、虚拟商品(自动发货)、广告位、友情链接等类别。</p><p>"
+"如需帮助，请访问<a href=\"http://www.warapay.com/\" target=\"_blank\">waraPay"
+"官网</a>。</p>"
+msgstr ""
+
+#: readme.php:15
+msgid "授权给您的开发权益"
+msgstr ""
+
+#: readme.php:16
+msgid ""
+"<p>如果您有一定的开发能力，waraPay欢迎您修改、传播本插件。</p><p>不仅仅如此，"
+"您也可以将waraPay集成到其它的系统中。请参考：插件目录下\\includes"
+"\\api_warapay\\相关文件或规范进行开发。</p>"
+msgstr ""
+
+#: readme.php:21
+msgid "请启用邮件支持"
+msgstr ""
+
+#: readme.php:22
+msgid ""
+"<p>本插件在交易的同时很大程度上依赖于Email的交互。</p><p>如果您是租用的的主"
+"机,那么您几乎不必担心邮件的问题,如果您是自己搭建的主机,请安装SMTP相关插件启用"
+"Email支持!</p>"
+msgstr ""
+
+#: readme.php:28
+msgid "保护您的接口密钥"
+msgstr ""
+
+#: readme.php:29
+msgid ""
+"<p>正如您所见,您可以直接在常规设置面板中设置您的接口密钥。</p><p>如果您觉得密"
+"钥被保存在数据库中不安全,你可以打开插件的文件进行密钥变量设置,具体如下:</"
+"p><p>..includes\\api_warapay\\cfg.warapay.php</p><p>将你的接口密钥填入其中，"
+"修改完后请在该插件的常规设置面板中将对应的密钥字段清空即可。</p>"
+msgstr ""
+
+#: readme.php:34
+msgid "请勿随意删除订单和商品"
+msgstr ""
+
+#: readme.php:35
+msgid ""
+"<p>如果您是自己在测试插件所产生的订单，删除订单尚无大碍。</p><p>如果是客户提"
+"交的订单,建议您不要在短期内删除相关商品和订单，否则可能造成付款后无法自动发"
+"货。</p>"
+msgstr ""
+
+#: readme.php:40
+msgid "如何创建一个模版？"
+msgstr ""
+
+#: readme.php:41
+msgid ""
+"<p>由于每个网站风格不同，为了更加适配您原有的风格，waraPay提供插件美化的功"
+"能，方法如下：</p><p>在插件的\"模版管理\"中,你可以看到有CSS,HTML,JS代码的输入"
+"框,你更多的需要关注HTML和CSS的编写,而JS可以提升用户的体验,但不是必须.如下范例"
+"</p><div><textarea style=\"height:300px;\">"
+msgstr ""
+
+#: readme.php:42
+msgid "收件人姓名:"
+msgstr ""
+
+#: readme.php:43
+msgid "收件人电话:"
+msgstr ""
+
+#: readme.php:44
+msgid "收件人邮编:"
+msgstr ""
+
+#: readme.php:45
+msgid "收件人地址:"
+msgstr ""
+
+#: readme.php:46
+msgid "备注信息:"
+msgstr ""
+
+#: readme.php:48
+msgid "买家留言:"
+msgstr ""
+
+#: readme.php:50
+msgid "收货邮箱:"
+msgstr ""
+
+#: readme.php:52
+msgid "购买数量:"
+msgstr ""
+
+#: readme.php:54
+msgid "1件"
+msgstr ""
+
+#: readme.php:55
+msgid "2件"
+msgstr ""
+
+#: readme.php:56
+msgid "3件"
+msgstr ""
+
+#: readme.php:58
+msgid "点此购买"
+msgstr ""
+
+#: readme.php:58
+msgid "</textarea></div><p>您至少需要布置点击购买按钮,即:</p><p>"
+msgstr ""
+
+#: readme.php:58
+msgid ""
+"</p><p>其他的,你还可以添加买家邮箱等信息,他们的布置都遵循一个规则,都使用表单"
+"的标签,且在其class属性中添加如[in_email]这样的短代码。但是这个短代码也不是随"
+"意写的,首先需要用户输入的都用in_开头,需要显示给用户看的都用out_开头。</p>"
+msgstr ""
+
+#: readme.php:64
+msgid "风格中标签代码的含义"
+msgstr ""
+
+#: readme.php:65
+msgid "目前支持的字段如下:"
+msgstr ""
+
+#: readme.php:68
+msgid "标签代码"
+msgstr ""
+
+#: readme.php:68
+msgid "代码含义"
+msgstr ""
+
+#: readme.php:73
+msgid "点击购买(用于type=\"button\")"
+msgstr ""
+
+#: readme.php:75
+msgid "买家邮箱"
+msgstr ""
+
+#: readme.php:76
+msgid "收件人详细地址"
+msgstr ""
+
+#: readme.php:77
+msgid "收件人电话/手机"
+msgstr ""
+
+#: readme.php:81
+msgid "点击图片跳转地址"
+msgstr ""
+
+#: readme.php:88
+msgid "商品ID"
+msgstr ""
+
+#: readme.php:91
+msgid "商品原价"
+msgstr ""
+
+#: readme.php:92
+msgid "商品当前价格"
+msgstr ""
+
+#: readme.php:93
+msgid "当前购买所能节约的价格"
+msgstr ""
+
+#: readme.php:94
+msgid "商品剩余数量"
+msgstr ""
+
+#: readme.php:95
+msgid "卖出数量"
+msgstr ""
+
+#: readme.php:96
+msgid "商品重量KG"
+msgstr ""
+
+#: readme.php:98
+msgid "商品图片"
+msgstr ""
+
+#: readme.php:99
+msgid "客服QQ/阿里旺旺"
+msgstr ""
+
+#: readme.php:102
+msgid "返回地址"
+msgstr ""
+
+#: readme.php:103
+msgid "商品分类"
+msgstr ""
+
+#: readme.php:104
+msgid "商品标签"
+msgstr ""
+
+#: readme.php:106
+msgid "运费"
+msgstr ""
+
+#: readme.php:107
+msgid "所在地"
+msgstr ""
+
+#: readme.php:108
+msgid "商品添加时间戳"
+msgstr ""
+
+#: readme.php:109
+msgid "商品开始时间戳"
+msgstr ""
+
+#: readme.php:110
+msgid "商品结束时间戳"
+msgstr ""
+
+#: readme.php:113
+msgid "促销开始时刻"
+msgstr ""
+
+#: readme.php:114
+msgid "促销结束时刻"
+msgstr ""
+
+#: readme.php:115
+msgid "商品折扣"
+msgstr ""
+
+#: readme.php:123
+msgid "如何使用已创建的模版"
+msgstr ""
+
+#: readme.php:124
+msgid ""
+"<p>每一个模版都对应一个唯一的ID,这个ID可以在模版管理中查看,将该ID填入商品管理"
+"中商品的\"模版选择\"字段中即可使用该模版。</p><p><strong>同样，您可以修改.."
+"styles\\css\\下的相关css样式文件达到全局适配的目的。</strong></p>"
+msgstr ""
+
+#: readme.php:129
+msgid "如何在文章中调用商品？"
+msgstr ""
+
+#: readme.php:130
+msgid ""
+"<p>在文章编辑器中使用短代码<span style=\"display:inline-block;margin:0 5px;"
+"color:#f00;font-weight:bold;\">[zfb id=100]</span>  即可调用商品id为100的商"
+"品，以此类推。</p>"
+msgstr ""
+
+#: readme.php:135
+msgid "无法发送邮件？"
+msgstr ""
+
+#: readme.php:136
+msgid ""
+"<p>1、是否安装SMTP插件？网站中本插件之外的邮件是否能收到？</p><p>2、常规设置"
+"中是否开启相关事件的邮件？</p><p>3、检查垃圾箱是否有邮件？</p>"
+msgstr ""
+
+#: readme.php:141
+msgid "后台数据更新滞后"
+msgstr ""
+
+#: readme.php:142
+msgid "<p>出现这个情况很可能是您启用了数据库缓存等插件造成的。</p>"
+msgstr ""
+
+#: readme.php:147
+msgid "请关注waraPay"
+msgstr ""
+
+#: readme.php:148
+msgid "<p>waraPay需要您持续的关注，以便获得商家活动、插件更新等支持。</p>"
+msgstr ""
+
+#: readme.php:197
+msgid "waraPay For WordPress插件帮助文档"
+msgstr ""
+
+#: readme.php:200
+msgid "目录(MENU)"
+msgstr ""

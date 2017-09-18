@@ -1,0 +1,81 @@
+*{margin:0;padding:0;font-size:14px;font-family:Microsoft YaHei;}
+body{background:#F5F5F5;}
+#header{overflow:hidden;height:89px;background:#CCC url(../styles/images/header-bg.png);}
+#main{overflow:hidden;margin:20px auto;width:950px;background:#FFF;}
+#footer{margin-top:20px;height:200px;background:#444;}
+#headCenter{margin:auto;width:950px;}
+#logo{float:left;margin:10px 0;width:300px;height:50px;}
+#logo h1{color:#fff;text-shadow:#000 0 -1px;font-size:26px;}
+#header a{text-decoration:none;}
+#header a:link{color:#903;}
+#header a:visited{color:#903;}
+#header a:hover{color:#069;}
+#header a:active{color:#003;}
+#headInfo{float:right;margin-top:10px;width:550px;height:1em;text-align:right;}
+#mainPatch{margin:20px;height:100%;}
+#buyerInfo,#cartInfo,#payInfo,#paySubmit{margin-top:15px;padding:20px;height:200px;}
+#cartTable tbody{height:80px;}
+#cartInfo{height:auto;background:0 0;}
+#buyerInfo{height:auto;background:0 0;}
+#payInfo{margin-top:50px;height:auto;background:0 0;}
+#paySubmit{height:auto;bround:none;}
+#cartTable{margin-top:10px;}
+#cartTable th{height:2em;background:#D9D9D9;}
+#cartTable td{background:#E8E8E8;text-align:center;}
+#cartTable td span{margin:auto 5px;}
+#cartTable td span input{width:2em;height:2em;font-size:1em;line-height:2em;}
+#cartTable .proName{width:400px;}
+#cartTable .proPrice{width:100px;}
+#cartTable .option{width:50px;}
+#cartTable .buyNum{width:150px;}
+#cartTable .equal{width:50px;}
+#cartTable .proFee{width:105px;}
+#cartTable .totalFee{padding-right:20px;height:3.5em;text-align:right;font-size:16px;}
+#proImg{float:left;display:block;margin-left:20px;width:50px;height:50px;background:#0CF;}
+#proName{float:left;overflow:hidden;margin-top:5px;margin-right:10px;margin-left:20px;width:250px;height:3em;text-align:left;line-height:1.5em;}
+#buyerInfo p{margin-top:20px;width:100%;height:1.7em;line-height:1.7em;}
+#buyerInfo p label{float:left;display:block;margin-right:15px;padding-right:15px;width:130px;height:2em;border-right:dotted 1px #333;text-align:right;line-height:1.7em;}
+#buyerInfo p input{float:left;display:block;padding-left:2px;width:250px;height:2em;font-size:12px;line-height:2em;}
+#buyerInfo p span{float:left;display:block;margin-left:10px;color:red;font-weight:200;font-family:SimSun;}
+#buyerInfo p span.tip{display:none;font-family:Microsoft YaHei;}
+#buyerInfo input.error{border:solid 1px red;color:red;}
+#buyerInfo p.wideText{width:90%;}
+#buyerInfo p.wideText textarea{display:block;overflow:auto;padding:2px;width:500px;height:80px;resize:none;}
+#buyerInfo p input,#buyerInfo p.wideText textarea{border:1px #9C9C9C solid;border-color:#AAA #DDD #DDD #AAA;}
+#buyerInfo p input:hover,#buyerInfo p.wideText textarea:hover{border:1px #000 solid;border-color:#666 #CCC #CCC #666;}
+#buyerInfo p input:focus,#buyerInfo p.wideText textarea:focus{outline:1px #0ff solid;border:1px #68ACFF solid;}
+#payInfo ul{list-style:none;}
+#payInfo ul li{float:left;display:block;overflow:hidden;margin:20px 0 0 25px;width:180px;height:50px;border:solid 1px #FFF;}
+#payInfo ul li:hover{border:solid 1px #999;}
+#payInfo ul li input{float:left;display:block;margin-top:20px;margin-left:5px;width:15px;}
+#payInfo ul li img{float:left;display:block;margin-top:10px;margin-left:5px;width:120px;height:35px;}
+#payInfo ul li img.waraPayLogo{margin-top:2px;height:45px;}
+#payInfo ul li img.tenpayLogo{margin-top:3px;height:42px;}
+#payInfo ul li img.paypalLogo{margin-top:0;height:50px;}
+#payInfo ul li img.unionLogo{margin-top:8px;width:90px;}
+#bankList{display:none;margin-top:20px;padding-bottom:20px;border:solid 1px #999;background:0 0;}
+#bankList ul{list-style:none;}
+#bankList ul li{float:left;display:block;margin:15px 0 0 13px;width:150px;height:25px;background-image:url(../styles/images/banks.gif);background-repeat:no-repeat;}
+#bankList ul li input{display:block;margin-top:5px;}
+.bankpreload{width:0;height:0;background-image:url(../styles/images/banks.gif);}
+#paySubmit input{display:block;margin:0 auto;height:38px;border:1px solid #0fa4db;border-radius:3px;background:#00aeef;color:#fefefe;text-align:center;font-weight:700;font-size:14px;line-height:38px;cursor:pointer;}
+#paySubmit input{margin:20px;padding:0 50px;}
+#paySubmit input:hover{color:#f60;}
+#paySubmit input:active{border:inset 2px #000;}
+#footer{bottom:30px;padding-top:20px;color:#FEFEFE;}
+#footer #copyright{margin:0 auto;width:80%;text-align:center;line-height:2em;}
+#footer a{text-decoration:none;}
+#footer a:link{color:#F30;}
+#footer a:visited{color:#F30;}
+#footer a:hover{color:#FFF;}
+#footer a:active{color:#900;}
+.unitsl{margin-top:5px;width:90px;border:solid 1px #666;background:#FFF;text-align:center;}
+hr{margin-top:10px;}
+h1{font-size:24px;}
+h2{font-size:15px;}
+h2.bankHeader{height:2em;background:#EEE;font-weight:400;line-height:2em;}
+h2.bankHeader img{float:left;display:block;padding-right:10px;height:2.2em;}
+h2.bankHeader span{color:#999;}
+.dot{border-style:none none dotted none;}
+.clear{float:none;clear:both;width:0!important;height:0!important;}
+em{margin:auto 3px;color:red;font-weight:700;}
