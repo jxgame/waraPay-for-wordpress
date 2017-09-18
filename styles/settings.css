@@ -1,0 +1,62 @@
+.clear{float:none!important;clear:both;}
+.clear_5{float:none!important;clear:both;display:block;width:100%;height:5px;}
+.clear_10{float:none!important;clear:both;display:block;width:100%;height:10px;}
+.clear_15{float:none!important;clear:both;display:block;width:100%;height:15px;}
+.clear_20{float:none!important;clear:both;display:block;width:100%;height:20px;}
+.newline{height:10px;}
+#waraPay_loading{position:absolute;right:200px;z-index:999;display:none;margin:0;padding:0 10px;width:55px;border-radius:0 0 4px 4px;background:#B71A0D;color:#FFF;font:normal normal 150 12pt/1em Arial,Helvetica,sans-serif;}
+.waraPay_loading_more{position:absolute;top:0;left:0;z-index:999;display:block;margin:0;padding:0;width:100%;height:100%;background:url(images/bg_black_a.png) repeat;}
+.waraPay_loading_more .waraPay_loading_bar{position:absolute;top:50%;left:50%;display:block;margin:-10px auto auto -110px;width:220px;height:20px;background:url(images/ajax-loader.gif) no-repeat;}
+#waraPay_footer{position:absolute;bottom:0;left:50%;margin-left:-48%;width:96%;text-align:center;}
+#waraPay_main_wrap{position:relative;margin:30px auto;padding:0;width:98%;height:100%;max-width:1200px;min-height:500px;border:solid 1px #CCC;border-radius:5px;background-image:url(images/waraPay_wm-1.png);}
+.waraPay_main_wrap{margin-top:10px;border:solid 1px #CCC;border-radius:5px;background-image:url(images/waraPay_wm-1.png);}
+#waraPay_main_wrap *{font-family:Microsoft YaHei;}
+#waraPay_child_wrap{position:relative;margin:20px 5px 50px;padding:0;}
+#waraPay_child_wrap .api_form{margin-left:20px;}
+#waraPay_child_wrap .api_form input{width:400px;}
+#waraPay_menu{position:relative;margin:0;padding:0;height:43px;border-radius:5px 5px 0 0;background:#DCDCDC;list-style:none;}
+#waraPay_menu li{float:left;margin:0;width:120px;}
+.waraPay_menu_a,.waraPay_menu_a_nojs{float:left;display:block;margin:10px 5px 0 5px;padding:8px 20px;border-right:solid 1px #C6C6C6;border-radius:5px 5px 0 0;background:#F7F7F7;}
+.waraPay_menu_active{float:left;display:block;margin:10px 5px 0 5px;padding:8px 20px;border-right:solid 1px #C6C6C6;border-radius:5px 5px 0 0;background:#D54E21;color:#FFF!important;}
+#waraPay_menu li a{text-decoration:none;}
+#waraPay_menu li a:hover{background:#C6C6C6;}
+#waraPay_main_wrap h1{background:#F7F7F7;}
+.waraPay_main_wrap{min-height:600px;}
+.waraPay_main_wrap.wrap h2{padding-left:20px;}
+#waraPay_logo{position:absolute;top:10px;right:40px;width:300px;height:35px;background:url(images/warapay_logo.png) bottom right no-repeat;color:#591C68;font:italic 700 20px youyuan,microsoft yahei,arial,sans-serif;background-size: 111px 35px;}
+.update{width:100px!important;}
+#waraPay_main_wrap td{width:200px;font-weight:700;}
+.waraPay_tbody tr td{font-weight:400!important;}
+.waraPay_table_checkbox{margin-left:8px;width:5%!important;}
+.waraPay_table_more{width:5%!important;}
+.waraPay_table_tr_more{display:none;}
+.waraPay_api_div{margin:10px auto;width:600px;}
+#waraPay_api_form{position:relative;margin:50px auto;width:95%;}
+.waraPay_api_div div{clear:both;display:block;width:100%;height:30px;}
+.waraPay_api_div label{float:left;display:block;margin-right:10px;width:30%;text-align:right;font-weight:100;line-height:2.5em;}
+.waraPay_api_div input,.waraPay_api_div select,.waraPay_api_div textarea{float:left;display:block;margin-right:50px;width:55%!important;}
+#waraPay_api_form #waraPay_api_update{float:right;margin-right:50px;width:100px!important;}
+.waraPay_table_nav{position:relative;margin:10px auto 100px auto;width:95%;text-align:center;font-size:14px;font-family:Arial,Helvetica,sans-serif;}
+.waraPay_table_nav *{position:relative;display:inline;margin:0;}
+.waraPay_table_nav_total{margin:0 5px;}
+.waraPay_table_nav ul{position:relative;left:50%;float:left;display:block;margin:0 auto;color:#21759B;list-style:none;text-align:center;font-weight:700;}
+.waraPay_table_nav ul li{position:relative;right:50%;float:left;display:block;margin-top:2px;margin-left:3px;padding:0 5px;width:15px;border:solid 1px #CCC;cursor:pointer;}
+.waraPay_table_nav ul li:hover{color:#D54E21;}
+#waraPay_item_more{display:none;margin-top:40px;}
+.waraPay_item_more_main_wrap{position:relative;margin:0;padding:0;width:100%;}
+.waraPay_item_more_wrap{position:relative;margin:10px auto;max-width:95%;}
+.waraPay_table tbody tr td{font-weight:100!important;}
+.waraPay_table tbody input[type=checkbox]{margin-left:8px;width:auto;}
+.waraPay_table_form div{float:left;margin-top:4px;padding:0;width:50%;height:30px;border:none;}
+.waraPay_table_form label{float:left;display:block;padding-left:5%;width:30%;text-align:left;font-weight:100;font-size:12px;line-height:2em;}
+.waraPay_table_form input{float:right;width:60%;}
+.waraPay_table_form select{float:right;width:60%;}
+.waraPay_table_form input[type=submit]{float:right;display:block;margin-top:30px;margin-right:0;width:100px;}
+.waraPay_table_form .areatotext{float:right;width:60%;height:2em;max-width:60%;max-height:2em;min-width:60%;min-height:2em;}
+#waraPay_table_add{margin:-10px 10px 5px auto;width:70px;}
+.waraPay_table_form_templates input[type=submit]{float:right;display:block;margin-top:30px;margin-right:0;width:100px;}
+.waraPay_tpl_css,.waraPay_tpl_html,.waraPay_tpl_js{display:block;overflow-y:auto;margin:10px auto;width:100%;height:100px;max-width:100%;max-height:300px;min-width:100%;min-height:100px;color:#399;}
+.waraPay_preview{margin:10px auto;padding:0!important;width:100%;border:dashed 1px #CCC!important;}
+.clear_3y5c{clear:both;display:block;}
+.waraPay_toobar01{margin:10px 0;padding:10px 0 10px 0;border:1px solid #CCC;border-right:none;border-left:none;background:rgba(210,210,210,.3);text-indent:10px;}
+.waraPay_viewwrap{margin-left:15px;}
